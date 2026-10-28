@@ -15,8 +15,10 @@ class Employee(Person):
         super().display_details()
         print(f"Salaire : {self.salary}")
 
-person = Person("Nico", 28)
-person.display_details()
 
-employee = Employee("Léa", 31, 3200)
-employee.display_details()
+if __name__ == "__main__":
+    person = Person("Nico", 28)
+    person.display_details()
+
+    employee = Employee("Léa", 31, 3200)
+    employee.display_details()

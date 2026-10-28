@@ -11,9 +11,10 @@ class Rectangle:
         return self.length * self.width
 
 
-# Test de la classe Rectangle
-rectangle = Rectangle(5, 3)  # 5:length & 3:width
-print("Largeur:", rectangle.width)
-print("Longueur:", rectangle.length)
-print("Aire:", rectangle.calculate_area())
-print("Périmètre:", rectangle.calculate_perimeter())
+if __name__ == "__main__":
+    # Test de la classe Rectangle
+    rectangle = Rectangle(5, 3)  # 5:length & 3:width
+    print("Largeur:", rectangle.width)
+    print("Longueur:", rectangle.length)
+    print("Aire:", rectangle.calculate_area())
+    print("Périmètre:", rectangle.calculate_perimeter())
