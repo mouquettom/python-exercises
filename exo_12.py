@@ -58,14 +58,14 @@ if __name__ == "__main__":
     library.add_book(Book("1984", "George Orwell", 1949))
     library.add_book(Book("To Kill a Mockingbird", "Harper Lee", 1960))
     library.add_book(Book("The Great Gatsby", "F. Scott Fitzgerald", 1925))
-    library.add_book(Book("Harry Potter and the Philosopher Stone", "JK.Rowling", 1997))
-    library.add_book(Book("Harry Potter and the Chamber of Secrets", "JK.Rowling", 1998))
-    library.add_book(Book("Harry Potter and the Prisoner of Azkaban", "JK.Rowling", 1999))
+    library.add_book(Book("Harry Potter and the Philosopher's Stone", "J.K. Rowling", 1997))
+    library.add_book(Book("Harry Potter and the Chamber of Secrets", "J.K. Rowling", 1998))
+    library.add_book(Book("Harry Potter and the Prisoner of Azkaban", "J.K. Rowling", 1999))
 
     library.available_books()
 
     library.borrow_book("1984")
-    library.borrow_book("Harry Potter and the Philosopher Stone")
+    library.borrow_book("Harry Potter and the Philosopher's Stone")
     library.borrow_book("The Great Gatsby")
 
     library.available_books()

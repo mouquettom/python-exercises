@@ -4,7 +4,7 @@ class Person:
         self.age = age
 
     def display_details(self):
-        print(f"Name : {self.name}\nAge : {self.age}")
+        print(f"Nom : {self.name}\nÂge : {self.age}")
 
 class Employee(Person):
     def __init__(self, name, age, salary):
@@ -13,10 +13,12 @@ class Employee(Person):
 
     def display_details(self):
         super().display_details()
-        print(f"Salary : {self.salary}")
+        print(f"Salaire : {self.salary}")
 
-person = Person("Nico", 28)
-person.display_details()
 
-employee = Employee("Léa", 31, 3200)
-employee.display_details()
+if __name__ == "__main__":
+    person = Person("Nico", 28)
+    person.display_details()
+
+    employee = Employee("Léa", 31, 3200)
+    employee.display_details()
