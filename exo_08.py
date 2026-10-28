@@ -1,11 +1,11 @@
 def log_decorator(func):
-    def wrapper():
+    def wrapper(*args, **kwargs):
         print(f"Avant d'exécuter la fonction '{func.__name__}'")
-        result = func
+        result = func(*args, **kwargs)
         print(f"Après l'exécution de la fonction '{func.__name__}'")
         return result
 
-    return wrapper()
+    return wrapper
 
 
 @log_decorator
