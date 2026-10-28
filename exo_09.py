@@ -12,7 +12,7 @@ class Rectangle:
 
 
 # Test de la classe Rectangle
-rectangle = Rectangle(5, 3) # 5:width & 3:length
+rectangle = Rectangle(5, 3)  # 5:length & 3:width
 print("Largeur:", rectangle.width)
 print("Longueur:", rectangle.length)
 print("Aire:", rectangle.calculate_area())
