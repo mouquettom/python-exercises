@@ -1,7 +1,7 @@
 # Fonction calculate_average
 
 def calculate_average(numbers):
-    average = sum([number for number in numbers]) // len(numbers)
+    average = sum(numbers) / len(numbers)
     return average
 
 
